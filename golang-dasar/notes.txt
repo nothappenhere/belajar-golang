@@ -1,0 +1,26 @@
+Untuk membuat sebuah module pada GOLANG,
+gunakan perintah "go mod init <nama-module>".
+
+Lalu untuk mem-build/meng-compile program GOLANG,
+gunakan perintah "go build",
+lalu jalankan pada terminal "./<nama-module>".
+
+Atau jika tidak ingin mem-build/meng-compile program GOLANG,
+gunakan perintah "go run <nama-file.go>"
+
+Pada GOLANG, tidak boleh terdapat dua/lebih "main function"
+pada satu module/project yang sama.
+
+Untuk membuat sebuah variable pada GOLANG,
+gunakan "var" diikuti dengan "<nama-variable>" dan "<tipe-data>".
+contoh:
+	- var name string
+	- var age int
+*variable DAPAT berubah nilainya dan TIDAK BOLEH nganggur/harus digunakan.
+
+Untuk membuat sebuah constant pada GOLANG, 
+gunakan "const" diikuti dengan "<nama-variable>" dan "<tipe-data>".
+contoh:
+	- const name string
+	- const age int
+*constant TIDAK DAPAT berubah nilainya dan BOLEH nganggur/tidak digunakan.
